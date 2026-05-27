@@ -20,6 +20,7 @@ Filtros Avançados de Busca: Agrupamento rápido por Horário de Funcionamento, 
 🛠️ Arquitetura e Integrações
 O ecossistema do dashboard é alimentado por três pilares principais:
 
+
 ┌────────────────────────┐      ┌────────────────────────┐      ┌────────────────────────┐
 │     Zabbix API         │      │     Claro GRC API      │      │     Jira Service Desk  │
 │ (Métricas de Rede/SLA) │      │ (Chamados de Link/Wan) │      │ (Incidentes Internos)  │
@@ -30,6 +31,8 @@ O ecossistema do dashboard é alimentado por três pilares principais:
                              ┌─────────────────────────────┐
                              │    Dashboard SD-WAN Core    │
                              └─────────────────────────────┘
+
+
 Monitoramento (Zabbix): Coleta ativa de Health-Checks das interfaces WAN e latência de equipamentos FortiGate.
 
 Provedores (Claro GRC): Sincronização automatizada para trazer o status do posicionamento técnico da operadora (EM RESOLUÇÃO, NOVO ITEM).
