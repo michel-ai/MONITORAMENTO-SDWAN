@@ -9,13 +9,34 @@ O painel integra dados de saúde de rede de ponta a ponta, unificando a camada f
 🚀 Principais Funcionalidades
 Visão Consolidada de Unidades (SD-WAN): Status em tempo real de links (UP/DOWN), consumo de banda, perda de pacotes e latência de operadoras como Claro, Starlink e redes locais (Prodepa).
 
+<img width="173" height="188" alt="image" src="https://github.com/user-attachments/assets/a72759b0-47fd-4072-995f-0874c42a662a" />
+
+
 Geolocalização dos Nós: Mapa interativo integrado mostrando a distribuição geográfica e o status de conectividade das unidades no estado.
+
+<img width="678" height="822" alt="image" src="https://github.com/user-attachments/assets/4e9338e5-53c7-420c-9db4-a3757a0ae412" />
+
 
 Gestão de Incidentes (Zabbix): Painel interno que consome a API do Zabbix para exibir alertas críticos (High, Disaster), tempo de duração do incidente (Age) e histórico de problemas resolvidos nos últimos 15 dias.
 
+<img width="678" height="818" alt="image" src="https://github.com/user-attachments/assets/e2f6cd98-32b2-4456-a381-b77e2be54915" />
+
+
 Integração com ITSM / Operadoras: Exibição direta de chamados abertos via Jira e Claro GRC (exemplo: acompanhamento do Ticket #9801986 da Claro para a unidade UECOMT AEROPORTO).
 
+<img width="689" height="832" alt="image" src="https://github.com/user-attachments/assets/32a53e05-4a45-48e3-aedc-7996e38a65c7" />
+<img width="678" height="827" alt="image" src="https://github.com/user-attachments/assets/2cdfcb79-f232-4873-8eb8-cf779cb4d15c" />
+
+
 Filtros Avançados de Busca: Agrupamento rápido por Horário de Funcionamento, Sede ou Designação do link.
+
+<img width="217" height="112" alt="image" src="https://github.com/user-attachments/assets/9bc5ea69-1d38-4084-8bcb-3f2a19e30a72" />
+
+Informações sobre a Unidade.
+
+<img width="346" height="566" alt="image" src="https://github.com/user-attachments/assets/6f66235e-3bbf-4552-a2db-f337f23da071" />
+
+
 
 🛠️ Arquitetura e Integrações
 O ecossistema do dashboard é alimentado por três pilares principais:
@@ -47,12 +68,11 @@ Filtros Dinâmicos: Classificação por metadados das unidades (ex: horários op
 
 📸 Demonstração do Painel
 Visão Geral do Dashboard
-O painel exibe cartões dinâmicos para cada localidade com múltiplos links redundantes. No exemplo, o nó UECOMT AEROPORTO aponta um alerta de falha no link principal da Claro, operando pelo link de contingência.
+O painel exibe cartões dinâmicos para cada localidade com múltiplos links redundantes. No exemplo, o nó  aponta um alerta de falha no link principal da Claro, operando pelo link de contingência.
 
 Central de Incidentes (Zabbix) & Chamados Claro GRC
 Detalhamento de problemas ativos categorizados por severidade e a janela de acompanhamento direto com a operadora Claro.
 
-|
 
 Visualização em Mapa Geográfico
 Mapeamento dos pontos de presença (PoPs) ativos no território.
